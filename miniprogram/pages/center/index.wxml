@@ -1,0 +1,40 @@
+<!--index.wxml-->
+<view class="container">
+		<view class="userinfo">
+			<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+			<block wx:else>
+				<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+				<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+			</block>
+		</view>
+
+	<navigator url='edit/edit'>
+		<view class='waikuang'>
+			<!-- <image class="myleft" src="../../images/edit.png"></image> -->
+			<view class='mycenter'>编辑报名信息</view>
+			<image src='../../images/right-arrow.png' class='myright'></image>
+		</view>
+	</navigator>
+	<navigator url='edit/edit'>
+		<view class='waikuang'>
+			<!-- <image class="myleft" src="../../images/appointment.png"></image> -->
+			<view class='mycenter'>我的预约</view>
+			<image src='../../images/right-arrow.png' class='myright'></image>
+		</view>
+	</navigator>
+		<navigator url='edit/edit'>
+		<view class='waikuang'>
+			<!-- <image class="myleft" src="../../images/customer.png" mode='aspectFill'></image> -->
+			<view class='mycenter'>在线客服</view>
+			<image src='../../images/right-arrow.png' class='myright'></image>
+		</view>
+	</navigator>
+		<navigator url='edit/edit'>
+		<view class='waikuang'>
+			<!-- <image class="myleft" src="../../images/contactus.png"></image> -->
+			<view class='mycenter'>联系我们</view>
+			<image src='../../images/right-arrow.png' class='myright'></image>
+		</view>
+	</navigator>
+	
+</view>

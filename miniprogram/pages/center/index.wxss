@@ -1,0 +1,84 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  padding-top: 10px;
+  background:#8DB3D7
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+.top{
+  height: 100px;
+  width: 100%;
+  background:#EA5149;
+  padding-top: 10px;
+  display: block;
+}
+
+/* 导航栏 */
+
+navigator{
+  margin:5px;
+  font-size: 20px;
+}
+.waikuang{
+  display: flex;
+  flex-direction: row;  
+  margin: 5px 0px;
+  padding: 5px 0px;
+}
+.myleft{
+  width: 40dpx;
+  height: 40dpx;
+  margin-right: 10px;
+}
+
+.mycenter{
+  flex: 1;
+}
+.myright{
+  width: 40rpx;
+  height:40rpx;
+  margin-top: 5px;
+}
+
+/* .list-item {
+  display：flex；
+  flex-direction: column；
+  align-items：center；
+  height：80rpx；
+}
+
+.item-image {
+  width：40rpx；
+  height: 40rpx；
+  margin: 20rpx;
+}
+
+.item-text {
+  color: gray;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+
+.person-line {
+  width: 80%;
+  height: 2rpx;
+  background: lightgray;
+  margin-left: 90rpx;
+} */
